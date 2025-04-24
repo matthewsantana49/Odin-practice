@@ -1,0 +1,322 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+/*laptop size*/
+@media (min-width: 769px) {
+  .header-link:nth-child(1) {
+    margin-right: 45px;
+  }
+}
+
+/*tablet size*/
+
+
+/*phone size*/
+
+
+div {
+  width: 100%;
+}
+
+a:visited {
+  color: white;   
+}
+
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #233855;
+  padding: 10px;
+  flex: 1;
+  min-height: 150px;
+}
+
+.header-logo {
+  width: 5%;
+  padding: 10px;
+  min-width: 100px;
+  max-width: 100px;
+  margin-left: 130px;
+}
+
+.header-logo img {
+  width: 100%;
+  height: auto;
+display: block;
+}
+
+.header-links {
+  display: flex;
+  flex: 1
+  justify-content: flex-end;
+  gap: 15px;
+  margin-left: auto;
+  max-width: 555px;
+  margin-right: 40px;
+  }
+
+.header-link {
+  color: white;
+  width: 170px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  font-size: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  transition: font-weight 0.7s ease, text-decoration 0.7s ease;
+
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-link:active, .header-link:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.container-one {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #233855;
+  flex: 1;
+}
+
+.one-left {
+  flex: 1;
+min-height: 400px;
+}
+
+.one-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-left: 150px;
+  margin-top: 50px;
+  color: white;
+  max-width: 500px;
+}
+
+.one-subtitle {
+  margin-left: 40px;
+  color: #E5E7EB;
+  margin-top: 5px;
+  margin-left: 150px;
+  font-size: 18px;
+
+}
+
+.one-buttons {
+  display: flex;
+  margin-left: 40px;
+  max-width: 1000px;
+  gap: 10px;
+  margin-top: 0px;
+  margin-left: 130px;
+  padding: 20px
+}
+
+.one-button {
+  background-color: #233855;
+  color: #E5E7EB;
+  width: 140px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+.one-button a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.one-buttons .one-button {
+  font-family: 'Roboto' sans-serif;
+  font-weight: 500;
+}
+
+  .one-right {
+    display: flex;
+    flex: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .one-picture {
+width: 500px;
+height: 325px;
+margin-bottom: 75px;
+margin-right: 100px;
+  }
+
+  .one-left, .one-right {
+    flex: 1 1 400px;
+  }
+
+.container-two {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.two-title {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(33, 31, 31);
+  padding: 70px;
+  align-content: center;
+}
+
+.two-content-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  padding: 0 20px;
+}
+
+.two-content-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 0 0 250px;
+  text-align: center;
+}
+
+.two-content-box img {
+  width: 100%;
+  height: 175px; 
+  object-fit: cover;
+}
+
+.two-subtitle {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+.container-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #E5E7EB;
+  padding: 50px 20px;
+}
+
+.three-quote {
+max-width: 800px;
+}
+
+.three-quote-sentence {
+ margin-top: 75px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300 ;
+}
+
+.three-quote-author {
+  max-width: 800px;
+  text-align: right;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.three-quote-author p {
+font-size: 24px;
+font-weight: bold;
+color: #1f2937;
+}
+
+.container-four {
+display: flex;  
+justify-content: center;
+}
+
+.four-ad-box {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  background-color: #3882f6;
+  padding: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+
+.ad-box-left {
+  flex: 2;
+}
+.ad-box-left p {
+  color: white;
+}
+
+.four-main-ad {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.four-subtitle-ad {
+  font-size: 18px;
+}
+
+.ad-box-right {
+flex: 1;
+  display: flex;
+justify-content: center;
+}
+
+.ad-box-right button {
+padding: 8px 30px;
+font-size: 18px;
+background-color: transparent;
+border: 2px solid white;
+color: white;
+border-radius: 15px;
+}
+
+.four-button  {
+  line-height: 1;
+  min-height: 0;
+
+}
+
+.four-button a {
+text-decoration: none;
+color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #233855 ;
+}
+
+.copyright {
+padding: 30px;
+display: flex;
+justify-content: center;
+font-size: 18px;
+color: #f5f5f5d8;
+}
